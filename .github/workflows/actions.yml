@@ -3,7 +3,6 @@ name: Go-cqhttp-docs
 on:
   push:
     branches: [main]
-
   workflow_dispatch:  # 允许手动触发
 jobs:
   docs:

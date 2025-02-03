@@ -40,6 +40,6 @@ jobs:
         with:
           target_branch: gh-pages
           build_dir: docs/.vuepress/dist
-          fqdn: docs.go-cqhttp.org
+          fqdn: docs.starmoon.top
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

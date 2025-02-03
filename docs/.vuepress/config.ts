@@ -4,8 +4,8 @@ import type { DefaultThemeOptions } from 'vuepress'
 export default defineUserConfig<DefaultThemeOptions>({
     // 站点配置
     lang: 'zh-CN',
-    title: 'go-cqhttp 帮助中心',
-    description: 'Onebot 的 golang 实现，轻量、原生跨平台',
+    title: 'go-cqhttp Help-new',
+    description: '没事干改的Go-cqhttp新帮助',
     base: '/',
     head:[
         ['link', { rel: 'icon', href: 'https://user-images.githubusercontent.com/25968335/120111974-8abef880-c139-11eb-99cd-fa928348b198.png' }]
@@ -63,7 +63,7 @@ export default defineUserConfig<DefaultThemeOptions>({
         danger: "警告",
         backToHome: "返回首页",
         navbar: [
-            { text: 'Guide', children: ['/guide/', '/guide/quick_start.md', '/guide/config.md', '/guide/eventfilter.md', '/guide/file.md', '/guide/achieve.md', '/guide/docker.md'] },
+            { text: 'guide', children: ['/guide/', '/guide/quick_start.md', '/guide/config.md', '/guide/eventfilter.md', '/guide/file.md', '/guide/achieve.md', '/guide/docker.md'] },
             { text: 'API', children: ['/api/', '/api/guild.md'] },
             { text: 'Event', children: ['/event/', '/event/guild.md'] },
             { text: 'CQ Code', link: '/cqcode/' },

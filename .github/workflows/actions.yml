@@ -1,9 +1,13 @@
 name: Go-cqhttp-docs
+permissions:
+  contents: write
+  pages: write
+  id-token: write
 
 on:
   push:
     branches: [main]
-  workflow_dispatch:  # 允许手动触发
+  workflow_dispatch: 
 jobs:
   docs:
     runs-on: ubuntu-latest

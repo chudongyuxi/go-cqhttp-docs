@@ -1,1 +1,3 @@
-#_Go-cqhttp-docs-new
+# Go-cqhttp-docs-new
+### by：StarmoonProject
+
